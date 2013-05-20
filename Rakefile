@@ -4,7 +4,7 @@ require "stringex"
 
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
-ssh_user       = ENV['astokes_ssh_user']
+ssh_user       = ENV['ASTOKES_SSH_USER']
 ssh_port       = "22"
 document_root  = "~/blog/"
 rsync_delete   = true
